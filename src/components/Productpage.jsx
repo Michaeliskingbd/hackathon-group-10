@@ -10,7 +10,7 @@ const Productpage = () => {
                 <li className='hover:text-orange-400'>home</li>
                 <li className='hover:text-orange-400'>about us</li>
                 <li className='hover:text-orange-400'>product</li>
-                <li className='hover:text-orange-400'>features</li>
+                <li className='hover:text-orange-400'>Features</li>
                 <li className='hover:text-orange-400'>contact</li>
             </ul>
         </nav>
