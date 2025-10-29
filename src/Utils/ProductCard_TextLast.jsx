@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard_TextLast = () => {
+const ProductCard_TextLast = ({ title, description, features, image }) => {
   return (
     <div className='mt-10 flex lg:flex-row flex-col gap-16 justify-center items-center'>
       <img src={image} alt="" />

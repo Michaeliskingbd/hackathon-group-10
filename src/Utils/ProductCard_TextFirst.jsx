@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard_TextFirst = () => {
+const ProductCard_TextFirst = ({ title, description, features, image }) => {
   return (
     <div className='mt-10 flex lg:flex-row flex-col gap-2 justify-center items-center'>
     <div className='flex flex-col gap-5 text-left px-6'>
