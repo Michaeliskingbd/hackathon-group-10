@@ -1,14 +1,17 @@
-import React from "react";
-import Footer from "./components/Footer";
-function App() {
+
+
+import React from 'react'
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+
+
+const App = () => {
   return (
-    <div className="bg-gray-50 min-h-screen text-gray-900">
-      <Navbar />
-      <Hero />
-      <Dashboard />
-      <Footer />
+    <div>
+      <Home />
+
     </div>
-  );
-}
+  )
+};
 
 export default App;
