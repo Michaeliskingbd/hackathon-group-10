@@ -1,12 +1,7 @@
 
-
-import React from 'react'
-// import Contact from './pages/Contact';
-import Home from './Pages/Home';
-
-
-
-const App = () => {
+import "./App.css";
+import Home from "./pages/Home";
+function App() {
   return (
     <div>
       <Home />

@@ -1,3 +1,4 @@
+
 import React from "react";
 import { FaTwitter, FaGithub, FaLinkedin,} from "react-icons/fa";
 function Footer() {
@@ -46,3 +47,4 @@ function Footer() {
 }
 
 export default Footer;
+
