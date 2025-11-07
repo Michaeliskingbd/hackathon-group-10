@@ -1,62 +1,50 @@
-import React from 'react'
 
-const Footer = () => {
+import React from "react";
+import { FaTwitter, FaGithub, FaLinkedin,} from "react-icons/fa";
+function Footer() {
   return (
-    <div>
-      {/* Footer */}
-      <footer className="bg-gray-200  text-cyan-700 font-bold mt-20 py-12 px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          
-          {/* Menu */}
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-blue-950">Menu</h3>
-            <ul className="space-y-2 text-lg font-semibold">
-              <li><a href="/" className="hover:text-orange-400">Home</a></li>
-              <li><a href="/about" className="hover:text-orange-400">About Us</a></li>
-              <li><a href="/services" className="hover:text-orange-400">Products</a></li>
-              <li><a href="/services" className="hover:text-orange-400">Features</a></li>
-              <li><a href="/contact" className="hover:text-orange-400">Contact</a></li>
-            </ul>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-blue-950">Quick Links</h3>
-            <ul className="space-y-2 text-lg font-semibold">
-              <li><a href="/" className="hover:text-orange-400">Blog</a></li>
-              <li><a href="/about" className="hover:text-orange-400">Support</a></li>
-              <li><a href="/services" className="hover:text-orange-400">Careers</a></li>
-              <li><a href="/contact" className="hover:text-orange-400">Privacy Policy</a></li>
-            </ul>
-          </div>
-
-          {/* Contacts */}
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-blue-950">Contact</h3>
-            <ul className="space-y-2 text-lg font-semibold">
-              <p>Appclick Tech Academy 10, Soun Ajagungbade Street <br /> Bodija Ibadan.</p>
-            </ul>
-          </div>
-
-          {/* Media icons */}
-          <div>
-            <h3 className="text-lg font-bold mb-4 text-blue-950">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-orange-400"><Facebook size={20} /></a>
-              <a href="#" className="hover:text-orange-400"><Twitter size={20} /></a>
-              <a href="#" className="hover:text-orange-400"><Instagram size={20} /></a>
-              <a href="#" className="hover:text-orange-400"><Linkedin size={20} /></a>
-            </div>
-          </div>
-        </div>
-
-        {/* Copyright Part */}
-        <div className="text-center text-gray-400 text-sm mt-10 border-t border-gray-700 pt-6">
-          © {new Date().getFullYear()} Hackhathon Group 10 — All Rights Reserved.
-        </div>
-      </footer>
-    </div>
-  )
+    <footer className="bg-gradient-to-b from-gray-900 via-black to-gray-950 text-gray-300 py-12 px-6 mt-24 relative overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(99,102,241,0.1)_0%,_transparent_70%)]"></div>
+<div className="relative max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 z-10">
+<div>
+<h2 className="text-3xl font-bold text-white tracking-wide">BreakLoop</h2>
+<p className="mt-3 text-gray-400 leading-relaxed text-sm md:text-base">
+            Your digital balance companion 
+            Helping you pause,and live beyond the scroll
+ </p></div> <div>
+<h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
+<ul className="space-y-2 text-sm md:text-base">
+<li><a href="#about" className="hover:text-indigo-400 transition-colors">About</a></li>
+<li><a href="#features" className="hover:text-indigo-400 transition-colors">Features</a></li>
+<li><a href="#dashboard" className="hover:text-indigo-400 transition-colors">Dashboard</a></li>
+<li><a href="#contact" className="hover:text-indigo-400 transition-colors">Contact</a></li>
+</ul>
+ </div>
+<div>
+ <h3 className="text-lg font-semibold text-white mb-3">Stay Connected</h3>
+<p className="text-sm text-gray-400 mb-4">Let’s build healthier tech habits together.</p>
+<div className="flex space-x-5 text-2xl">
+<a href="https://twitter.com" className="hover:text-indigo-400 transform hover:scale-110 transition-all duration-200">
+<FaTwitter />
+</a>
+<a href="https://github.com" className="hover:text-indigo-400 transform hover:scale-110 transition-all duration-200">
+<FaGithub />
+</a>
+<a href="https://linkedin.com" className="hover:text-indigo-400 transform hover:scale-110 transition-all duration-200">
+<FaLinkedin />
+</a>
+</div>
+</div>
+</div>
+<div className="relative mt-12 border-t border-gray-800 pt-6 text-center text-sm text-gray-500 z-10">
+<p>
+<span className="text-indigo-400 font-medium"> BreakLoop </span> Hackathon 2025 
+ </p>
+<p className="mt-2 text-xs text-gray-600">© {new Date().getFullYear()} BreakLoop.</p>
+</div>
+</footer>
+  );
 }
 
-export default Footer
+export default Footer;
+
