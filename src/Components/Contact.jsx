@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     
 
-    <section className="min-h-screen bg-gradient-to-b from-gray-200 to-gray-200 flex flex-col justify-center px-6 py-12">   
+    <section className="relative min-h-screen bg-[#def1ef] flex flex-col justify-center px-6 py-12 z-10">   
       {/* Header Section */}
       <div className="text-center mb-10">
         <h1 className="text-5xl md:text-6xl font-extrabold text-blue-900 mb-4">

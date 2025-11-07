@@ -174,7 +174,7 @@ const ProductPage = () => {
           </section>
 
           {/* Footer */}
-      <footer className="bg-gray-200  text-cyan-700 font-bold mt-20 py-12 px-8">
+      <footer className="bg-[#def1ef]  text-cyan-700 font-bold mt-20 py-12 px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           
           {/* Menu */}

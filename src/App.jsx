@@ -1,10 +1,23 @@
 
-import "./App.css";
-import Home from "./pages/Home";
-function App() {
+
+
+import React from 'react'
+// import Contact from './pages/Contact';
+import Home from './Pages/Home';
+
+import About from './Pages/AboutUs';
+import Footer from './components/Footer';
+
+
+
+
+
+
   return (
     <div>
-      <Home />
+      
+      <About />
+      {/* <Footer /> */}
 
     </div>
   )
