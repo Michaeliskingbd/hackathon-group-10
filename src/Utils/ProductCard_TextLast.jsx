@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard_TextLast = ({ title, description, features, image }) => {
+const ProductCard_TextLast = ({ title, description, features, l1, l2, l3, image }) => {
   return (
     <div className='mt-10 flex lg:flex-row flex-col gap-16 justify-center items-center'>
       <img src={image} alt="" />
@@ -11,6 +11,9 @@ const ProductCard_TextLast = ({ title, description, features, image }) => {
       {features.map((feature, index) => (
         <li key={index}>{feature}</li>
       ))}
+      {/* <li className='flex flex-row items-left'><IoMdCheckmark />{l1}</li>
+      <li className='flex flex-row items-left'><IoMdCheckmark />{l2}</li>
+      <li className='flex flex-row items-left'><IoMdCheckmark />{l3}</li> */}
     </ul>
       </div>
     </div>
