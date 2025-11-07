@@ -1,13 +1,21 @@
 import React from 'react'
-import Navbar from "../Components/Navbar"
-import Contact from "../Components/Contact"
+import ProductPage from '../Components/ProductPage'
 
 const Home = () => {
   return (
+    <section>
     <div>
-      <Navbar />
-      <Contact />
+        <NavBar />
+        <HeroSection />
+        <Activities />
+        <Products />
+        <Partners />
+        <Testimonials />  
+        <Request />      
+        
     </div>
+
+    </section>
   )
 }
 

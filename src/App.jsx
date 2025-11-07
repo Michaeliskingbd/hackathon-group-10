@@ -1,5 +1,6 @@
 
 
+
 import React from 'react'
 // import Contact from './pages/Contact';
 import Home from './Pages/Home';
@@ -10,7 +11,8 @@ import Footer from './components/Footer';
 
 
 
-const App = () => {
+
+
   return (
     <div>
       
