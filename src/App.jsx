@@ -1,13 +1,12 @@
-
 import "./App.css";
-import Home from "./pages/Home";
+import Contact from "./Components/Contact";
+
 function App() {
   return (
     <div>
-      <Home />
-
+      <Contact />
     </div>
-  )
-};
+  );
+}
 
 export default App;
